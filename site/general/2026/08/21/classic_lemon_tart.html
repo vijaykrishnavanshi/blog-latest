@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+
+
+<link rel="alternate" type="application/rss+xml" href="../../../../feed.xml" title="Classic Lemon Tart">
+
+
+
+<link rel="stylesheet" type="text/css" href="../../../../css/main.css">
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global',
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="../../../../scripts/tex-svg.js">
+</script>
+
+<style>
+</style>
+
+<div id="doc" class="container-fluid markdown-body comment-enabled" data-hard-breaks="true">
+
+<div id="color-mode-switch">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>
+  <input type="checkbox" id="switch" />
+  <label for="switch">Dark Mode Toggle</label>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+  </svg>
+</div>
+
+<script type="text/javascript">
+  // Update root html class to set CSS colors
+  const toggleDarkMode = () => {
+    const root = document.querySelector('html');
+    root.classList.toggle('dark');
+  }
+
+  // Update local storage value for colorScheme
+  const toggleColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    if (colorScheme === 'light') localStorage.setItem('colorScheme', 'dark');
+    else localStorage.setItem('colorScheme', 'light');
+  }
+
+  // Set toggle input handler
+  const toggle = document.querySelector('#color-mode-switch input[type="checkbox"]');
+  if (toggle) toggle.onclick = () => {
+    toggleDarkMode();
+    toggleColorScheme();
+  }
+
+  // Check for color scheme on init
+  const checkColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    if (colorScheme === null || colorScheme === undefined) {
+      // No saved preference — use OS preference
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        toggle.checked = true;
+        toggleDarkMode();
+        localStorage.setItem('colorScheme', 'dark');
+      } else {
+        localStorage.setItem('colorScheme', 'light');
+      }
+    } else if (colorScheme === 'dark') {
+      toggle.checked = true;
+      toggleDarkMode();
+    }
+  }
+  checkColorScheme();
+</script>
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Classic Lemon Tart" />
+<meta name="twitter:image" content="http://vitalik.ca/images/icon.png" />
+
+
+<br>
+<h1 style="margin-bottom:7px"> Classic Lemon Tart </h1>
+<small style="float:left; color: #888"> 2026 Aug 21 </small>
+<small style="float:right; color: #888"><a href="../../../../index.html">See all posts</a></small>
+<br> <br> <br>
+<title> Classic Lemon Tart </title>
+
+<h1 id="classic-lemon-tart">Classic Lemon Tart</h1>
+<p>A crisp sweet pastry shell filled with a silky, sharp lemon custard —
+baked low and slow so it sets without cracking.</p>
+<p><strong>Serves:</strong> 8 <strong>Tin:</strong> 23cm loose-bottomed
+tart tin</p>
+<hr />
+<h2 id="ingredients-for-the-pastry">Ingredients### For the pastry</h2>
+<ul>
+<li>175g plain flour</li>
+<li>75g icing sugar</li>
+<li>100g cold unsalted butter, cubed</li>
+<li>1 large egg yolk</li>
+<li>1 tbsp cold water</li>
+<li>¼ tsp fine salt</li>
+</ul>
+<h3 id="for-the-filling">For the filling</h3>
+<ul>
+<li>4 large eggs</li>
+<li>150g caster sugar</li>
+<li>150ml lemon juice, freshly squeezed (about 4 lemons)</li>
+<li>Zest of 2 lemons</li>
+<li>150ml double cream</li>
+</ul>
+<hr />
+<h2 id="method">Method</h2>
+<p><strong>1. Make the pastry</strong> Rub the butter into the flour,
+icing sugar and salt until it looks like coarse breadcrumbs — or pulse
+in a food processor. Add the egg yolk and water and bring together into
+a dough without kneading it.</p>
+<p><strong>2. Chill the dough — 30 minutes</strong> Flatten into a disc,
+wrap, and refrigerate until firm.</p>
+<p><strong>3. Line the tin — 20 minutes chilling</strong> Roll out to
+about 3mm and line the tart tin, leaving the excess hanging over the
+edge. Prick the base, then chill again — this is what stops
+shrinkage.</p>
+<p><strong>4. Blind bake — 15 minutes</strong> Heat the oven to 180°C /
+350°F. Line the shell with baking paper, fill with beans or rice, and
+bake until the edges look dry and pale gold.</p>
+<p><strong>5. Bake the base — 10 minutes</strong> Remove the paper and
+beans and bake until the base is sandy and fully cooked. Drop the oven
+to 140°C / 285°F.</p>
+<p><strong>6. Make the filling</strong> Whisk the eggs with the caster
+sugar until just combined — don't beat in air. Stir in the lemon juice,
+zest and cream, then strain through a fine sieve and skim off any
+foam.</p>
+<p><strong>7. Fill and bake — 30–35 minutes</strong> Pour the filling
+into the warm shell (easiest done with the tin already on the oven
+shelf). Bake until set with a faint wobble in the centre.</p>
+<p><strong>8. Cool and trim — 1 hour</strong> Cool completely in the
+tin, then trim the overhanging pastry with a serrated knife for a clean
+edge. Dust with icing sugar just before serving.</p>
+<hr />
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Straining the filling is the single biggest difference between a
+good tart and a great one — it catches the stringy bits of egg and gives
+you that glassy texture.</li>
+<li>For a caramelised top, dust the cooled tart with caster sugar and
+blowtorch it.</li>
+<li>Serve at room temperature, not fridge-cold, or the flavour flattens
+out.</li>
+<li>Short on time? A shop-bought sweet shortcrust case works fine —
+blind bake it and jump to step 6.</li>
+</ul>
+ </div> 
